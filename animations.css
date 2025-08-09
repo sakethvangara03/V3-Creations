@@ -1,0 +1,22 @@
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.glow:hover {
+    box-shadow: 0 0 15px #00d4ff;
+}
+
+.hover-up:hover {
+    transform: translateY(-15px);
+    transition: 0.3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
