@@ -12,37 +12,37 @@
 </head>
 
 <body>
-    <header class="d-flex justify-content-between align-items-center p-3 shadow-sm">
-        <div class="logo d-flex align-items-center">
-            <img src="logo.png" alt="V3 Creations Logo" style="height:50px; margin-right:10px;">
-            <h1 class="m-0 fs-3 fw-bold">V3 Creations</h1>
-        </div>
-        <nav class="d-flex align-items-center">
-            <div class="desktop-nav d-flex gap-3">
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="about.html" class="nav-link">About</a>
-                <a href="achievements.html" class="nav-link">Achievements</a>
-                <a href="contact.html" class="nav-link">Contact</a>
-                <a href="login.html" class="btn btn-danger ms-2">Logout</a>
-            </div>
-            <button class="mobile-menu-btn d-none" aria-label="Toggle menu" aria-expanded="false"
-                style="font-size: 1.8rem; background:none; border:none; color:#333; cursor:pointer; margin-left: auto;">
-                &#9776;
-            </button>
-        </nav>
-    </header>
-    
-    <!-- Mobile menu overlay -->
-    <div class="mobile-menu-overlay d-none">
-        <ul class="mobile-menu-list list-unstyled text-center p-0 m-0">
-            <li class="mb-3"><a href="index.html">Home</a></li>
-            <li class="mb-3"><a href="about.html">About</a></li>
-            <li class="mb-3"><a href="achievements.html">Achievements</a></li>
-            <li class="mb-3"><a href="contact.html">Contact</a></li>
-            <li><a href="login.html" class="btn btn-danger">Logout</a></li>
-        </ul>
+<header class="d-flex justify-content-between align-items-center p-3 shadow-sm">
+    <div class="logo d-flex align-items-center">
+        <img src="images/logo.png" alt="V3 Creations Logo" class="me-2" style="height:50px;">
+        <h1 class="m-0">V3 Creations</h1>
     </div>
+    <nav class="d-flex align-items-center">
+        <!-- Desktop nav links -->
+        <div class="desktop-nav d-flex gap-3">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="achievements.html" class="nav-link">Achievements</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="login.html" class="btn btn-danger btn-sm">Logout</a>
+        </div>
+        <!-- Hamburger menu button -->
+        <button class="mobile-menu-btn d-none" aria-label="Toggle menu" aria-expanded="false">
+            &#9776;
+        </button>
+    </nav>
+</header>
 
+<!-- Mobile menu overlay -->
+<div class="mobile-menu-overlay d-none">
+    <ul class="mobile-menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="btn btn-danger btn-sm">Logout</a></li>
+    </ul>
+</div>
     <!-- HERO -->
     <section class="hero-container position-relative text-center text-white"
         style="background-image: url('materials-hero.jpg'); background-size: cover; background-position: center; height: 300px;">
@@ -110,5 +110,6 @@
 </body>
 
 </html>
+
 
 
