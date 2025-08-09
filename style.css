@@ -63,7 +63,7 @@ header nav a:hover {
 .hero-container {
     position: relative;
     height: 325px;
-    background: url('../images/Background.jpg') center/cover no-repeat;
+    background: url('Background.jpg') center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -575,4 +575,5 @@ nav a.active {
 .achievement-card img {
     max-width: 120px;
     border-radius: 8px;
+
 }
